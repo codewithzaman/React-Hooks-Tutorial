@@ -1,5 +1,6 @@
 import './App.css';
 import UseRef from './React-Hooks/UseRef/UseRef';
+import UseRef2 from './React-Hooks/UseRef/UseRef2';
 // import UseCallBack from './React-Hooks/UseCallback/UseCallBack';
 // import UseMemo from './React-Hooks/UseMemo/UseMemo';
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       {/* <UseMemo/> */}
       {/* <UseCallBack/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      <UseRef2/>
     </div>
   );
 }
