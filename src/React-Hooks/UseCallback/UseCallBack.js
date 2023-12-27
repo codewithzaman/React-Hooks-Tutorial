@@ -1,12 +1,17 @@
-import React,{useState} from 'react'
+import React,{useState,useCallback} from 'react'
 import Todos from './Todos'
 
 function UseCallBack() {
     const [count, setcount] = useState(0)
     const [todo, settodo] = useState([])
-    const addNewTodo = ()=>{
-        console.log('Add new todo');
-    }
+    // const addNewTodo = ()=>{
+    //     console.log('Add new todo');
+    // }
+    const addNewTodo = useCallback(() => {
+        console.log('Add new Todo');
+      },[todo]
+    )
+    
   return (
     <div>
       <h1>UseCallBack Hook </h1>
