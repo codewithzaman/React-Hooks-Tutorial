@@ -1,5 +1,6 @@
 import './App.css';
-import UseStateHook from './Hooks-Pedro/UseState/UseStateHook';
+import UseReducerHook from './Hooks-Pedro/UseReducer/UseReducerHook';
+// import UseStateHook from './Hooks-Pedro/UseState/UseStateHook';
 // import UseReducer from './React-Hooks/UseReducer/UseReducer';
 // import UseContext from './React-Hooks/UseContext/UseContext';
 // import UseRef from './React-Hooks/UseRef/UseRef';
@@ -15,7 +16,8 @@ function App() {
       {/* <UseRef2/> */}
       {/* <UseContext/> */}
       {/* <UseReducer/> */}
-      <UseStateHook/>
+      {/* <UseStateHook/> */}
+      <UseReducerHook/>
     </div>
   );
 }
