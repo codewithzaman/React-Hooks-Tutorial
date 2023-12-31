@@ -15,7 +15,22 @@ const reducer = (state, action) => {
 };
 const UseReducerHook2 = () => {
   const [state, dispatch] = useReducer(reducer, initialstate);
-  return <div></div>;
+  return (
+  <div >
+  <h1>{state.count}</h1>
+  <button 
+  onClick={()=>{
+    dispatch({type:'INCREMENT'});
+    dispatch({type:'toggleShowText'})
+
+  }}
+  >
+    Click Here
+  </button>
+  {state.showText&& <p>This is a text</p>}
+</div>
+)
+  ;
 };
 
 export default UseReducerHook2;

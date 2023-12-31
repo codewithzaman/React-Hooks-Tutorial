@@ -1,5 +1,5 @@
 import './App.css';
-import UseReducerHook from './Hooks-Pedro/UseReducer/UseReducerHook';
+// import UseReducerHook from './Hooks-Pedro/UseReducer/UseReducerHook';
 import UseReducerHook2 from './Hooks-Pedro/UseReducer/UseReducerHook2';
 // import UseStateHook from './Hooks-Pedro/UseState/UseStateHook';
 // import UseReducer from './React-Hooks/UseReducer/UseReducer';
