@@ -15,7 +15,7 @@ const UseEffectHook = () => {
     });  return () => {
       
     }
-  }, [])
+  }, [data])
   
   return (
     <div>
