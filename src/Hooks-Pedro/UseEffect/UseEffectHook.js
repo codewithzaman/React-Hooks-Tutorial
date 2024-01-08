@@ -24,7 +24,7 @@ const UseEffectHook = () => {
       <h1 className='mt-6'>UseEffect Hook </h1>
       <h3 className='mt-4'>{data}</h3><br/>
       <h2 className='text-4xl font-semibold'>{count}</h2><br/>
-      <button onClick={()=>setCount(count+1)}>Count</button>
+      <button className=' bg-blue-500 p-3 mx-20 w-[100px]' onClick={()=>setCount(count+1)}>Count</button>
 
     </div>
   )
