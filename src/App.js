@@ -1,4 +1,5 @@
 import './App.css';
+import UseRefWebDevSimplified from './Hooks-Pedro/UseRefHook/UseRefWebDevSimplified';
 // import UseRefCodvolution from './Hooks-Pedro/UseRefHook/UseRefCodvolution';
 // import UseEffectHook from './Hooks-Pedro/UseEffect/UseEffectHook';
 // import UseReducerHook from './Hooks-Pedro/UseReducer/UseReducerHook';
@@ -26,6 +27,7 @@ function App() {
       {/* <UseEffectHook/> */}
       {/* <UseRefHook/> */}
       {/* <UseRefCodvolution/> */}
+      <UseRefWebDevSimplified/>
     </div>
   );
 }
