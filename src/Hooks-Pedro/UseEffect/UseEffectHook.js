@@ -10,7 +10,8 @@ const UseEffectHook = () => {
     .get("https://jsonplaceholder.typicode.com/comments")
     .then((response) => {
     // console.log(response.data);
-    setData(response.data[9].email)
+    setData(response.data[9].email);
+    console.log("API was called");
 
     });  return () => {
       
