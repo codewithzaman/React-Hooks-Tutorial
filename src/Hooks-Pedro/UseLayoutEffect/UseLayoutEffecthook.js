@@ -6,7 +6,7 @@ const UseLayoutEffecthook = () => {
     const inputRef = useRef(null);
 
     useLayoutEffect(() => {
-        console.log('UseLayoutEffect');
+        console.log(inputRef.current.value);
     
     },[] )
     useEffect(() => {
@@ -17,7 +17,7 @@ const UseLayoutEffecthook = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
         <h1 className='text-4xl font-semibold mb-3'>UselayouEffect Hook</h1>
-        <input type="text" ref={inputRef} className='text-2xl border rounded-md w-[300px] h-[50px] ' />
+        <input type="text" ref={inputRef} value='Pedro' className='text-2xl border rounded-md w-[300px] h-[50px] ' />
     </div>
   )
 }
