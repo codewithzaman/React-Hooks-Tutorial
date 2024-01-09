@@ -1,4 +1,5 @@
 import './App.css';
+import UseLayoutEffecthook from './Hooks-Pedro/UseLayoutEffect/UseLayoutEffecthook';
 import UseRefWebDevSimplified from './Hooks-Pedro/UseRefHook/UseRefWebDevSimplified';
 // import UseRefCodvolution from './Hooks-Pedro/UseRefHook/UseRefCodvolution';
 // import UseEffectHook from './Hooks-Pedro/UseEffect/UseEffectHook';
@@ -27,7 +28,8 @@ function App() {
       {/* <UseEffectHook/> */}
       {/* <UseRefHook/> */}
       {/* <UseRefCodvolution/> */}
-      <UseRefWebDevSimplified/>
+      {/* <UseRefWebDevSimplified/> */}
+      <UseLayoutEffecthook/>
     </div>
   );
 }
