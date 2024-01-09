@@ -1,13 +1,18 @@
-import React, { useState } from 'react'
+import React, {forwardRef ,useImperativeHandle,useState } from 'react'
 
-const Button = () => {
-    const [toggle, setToggle] = useState(false)
+const Button = forwardRef((props,ref) => {
+    const [toggle, setToggle] = useState(false);
+    useImperativeHandle(ref,()=>({
+        alterToggle(){
+            setToggle(!toggle)
+        }
+    }));
   return (
     <div className='flex flex-col justify-center items-center my-5'>
-        <button className='' onClick={()=>setToggle(!toggle)}>Button from Child</button><br/>
+        <button >Button from Child</button><br/>
         {toggle&&<span>Toggle</span>}
     </div>
   )
-}
+})
 
 export default Button
