@@ -1,6 +1,6 @@
 import './App.css';
 import UseContextHook from './Hooks-Pedro/UseContext/UseContextHook';
-import UseImparitivehandle from './Hooks-Pedro/UseImparitiveHandle/UseImparitivehandle';
+// import UseImparitivehandle from './Hooks-Pedro/UseImparitiveHandle/UseImparitivehandle';
 // import UseLayoutEffecthook from './Hooks-Pedro/UseLayoutEffect/UseLayoutEffecthook';
 // import UseRefWebDevSimplified from './Hooks-Pedro/UseRefHook/UseRefWebDevSimplified';
 // import UseRefCodvolution from './Hooks-Pedro/UseRefHook/UseRefCodvolution';
