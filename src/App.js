@@ -1,4 +1,5 @@
 import './App.css';
+import UseContextHook from './Hooks-Pedro/UseContext/UseContextHook';
 import UseImparitivehandle from './Hooks-Pedro/UseImparitiveHandle/UseImparitivehandle';
 // import UseLayoutEffecthook from './Hooks-Pedro/UseLayoutEffect/UseLayoutEffecthook';
 // import UseRefWebDevSimplified from './Hooks-Pedro/UseRefHook/UseRefWebDevSimplified';
@@ -31,7 +32,8 @@ function App() {
       {/* <UseRefCodvolution/> */}
       {/* <UseRefWebDevSimplified/> */}
       {/* <UseLayoutEffecthook/> */}
-      <UseImparitivehandle/>
+      {/* <UseImparitivehandle/> */}
+      <UseContextHook/>
     </div>
   );
 }
