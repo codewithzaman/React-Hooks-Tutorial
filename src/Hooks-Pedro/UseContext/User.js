@@ -1,8 +1,10 @@
 import React from 'react'
 
-const User = () => {
+const User = ({userName}) => {
   return (
-    <div>User</div>
+    <div>
+        <h1>User: {userName}</h1>
+    </div>
   )
 }
 
