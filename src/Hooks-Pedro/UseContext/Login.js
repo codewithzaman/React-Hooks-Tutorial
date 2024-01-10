@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Login() {
+function Login({setUserName}) {
   return (
-    <div>Login</div>
+    <div>
+        <input type="text" onChange={(event)=>setUserName(event.target.value) }/>
+    </div>
   )
 }
 
