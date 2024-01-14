@@ -1,5 +1,6 @@
 import './App.css';
-import UseMemoHook from './Hooks-Pedro/UseMemo/UseMemoHook';
+import UseMemoYoshita from './Hooks-Pedro/UseMemo/UseMemoYoshita';
+// import UseMemoHook from './Hooks-Pedro/UseMemo/UseMemoHook';
 // import UseContextHook from './Hooks-Pedro/UseContext/UseContextHook';
 // import UseImparitivehandle from './Hooks-Pedro/UseImparitiveHandle/UseImparitivehandle';
 // import UseLayoutEffecthook from './Hooks-Pedro/UseLayoutEffect/UseLayoutEffecthook';
@@ -35,7 +36,8 @@ function App() {
       {/* <UseLayoutEffecthook/> */}
       {/* <UseImparitivehandle/> */}
       {/* <UseContextHook/> */}
-      <UseMemoHook/>
+      {/* <UseMemoHook/> */}
+      <UseMemoYoshita/>
     </div>
   );
 }
